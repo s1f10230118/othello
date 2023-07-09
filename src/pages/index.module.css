@@ -8,27 +8,24 @@
   padding: 0 0.5rem;
 }
 
-.board{
-  width:640px;
-  height:640px;
+.board {
+  width: 640px;
+  height: 640px;
   background-color: green;
   display: flex;
-  flex-direction: row;
   flex-wrap: wrap;
 }
 
-.cell{
-  width:80px;
-  height:80px;
-  border:solid 1px black;
+.cell {
+  width: 80px;
+  height: 80px;
+  border: solid 1px black;
 }
 
-.stone{
-  width:64px;
-  height:64px;
+.stone {
+  width: 64px;
+  height: 64px;
   border-radius: 50%;
   background-color: white;
-  margin:7px;
+  margin: 7px;
 }
-
-
